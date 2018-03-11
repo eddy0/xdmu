@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cal</title>
+</head>
+<body style="display: flex; flex-direction: column; align-items: center; justify-content: center">
+
+<br>
+<input type="text" id="number" style="width:200px; height: 100px; ">
+<br>
+<div class="result"></div>
+
+<script>
+    const number = document.querySelector('#number')
+    // number.addEventListener('keydown', (event) => {
+    //     if (event.key === 'Enter') {
+    //         let value = Number(number.value)
+    //         let Newvalue =  value * 0.93
+    //         const r = document.querySelector('.result')
+    //         let t = `
+    //             <div > before ${value}</div>
+    //             <div > after ${Newvalue}</div>
+    //             <br>
+    //             `
+    //         r.insertAdjacentHTML('beforeend', t)
+    //         number.value = ''
+    //
+    //         // r.innerHTML = Newvalue
+    //     }
+    // })
+
+        // number.onchange = () => {
+        //     let value = Number(number.value)
+        //     let Newvalue =  value * 0.93
+        //     const r = document.querySelector('.result')
+        //     r.innerHTML = Newvalue
+        // }
+
+    number.addEventListener('keyup', (event) => {
+        let value = number.value
+
+        const r = document.querySelector('.result')
+        r.innerHTML = value
+    })
+
+
+
+</script>
+
+</body>
+</html>

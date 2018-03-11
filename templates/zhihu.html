@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>zhihu practice</title>
+    <link rel="stylesheet" href="zhihu.css">
+</head>
+<body>
+    <header class="appHeader">
+        <div class="appHeader-container">
+            <a class="appHeader-logo" href="">LOGO</a>
+            <nav class="appHeader-list">
+                <a href="#" class="appHeader-item">BLOG</a>
+                <a href="#" class="appHeader-item">THOUGHT</a>
+                <a href="#" class="appHeader-item">GAME</a>
+                <a href="#" class="appHeader-item">ABOUT</a>
+            </nav>
+            <div class="appHeader-search">
+                <div class="wrapper input-container ">
+                    <input type="text" class="input">
+                    <button class="button-plain button-search">
+                        <svg viewBox="0 0 16 16" style="height:16px;width:16px;fill: #8590a6;" width="16" height="16" aria-hidden="true" ></title><g data-reactid="28"><path d="M12.054 10.864c.887-1.14 1.42-2.57 1.42-4.127C13.474 3.017 10.457 0 6.737 0S0 3.016 0 6.737c0 3.72 3.016 6.737 6.737 6.737 1.556 0 2.985-.533 4.127-1.42l3.103 3.104c.765.46 1.705-.37 1.19-1.19l-3.103-3.104zm-5.317.925c-2.786 0-5.053-2.267-5.053-5.053S3.95 1.684 6.737 1.684 11.79 3.95 11.79 6.737 9.522 11.79 6.736 11.79z"></path></g></svg>
+                    </button>
+                </div>
+                <button class="button-plain appHeader-ask ">search</button>
+            </div>
+            <div class="appHeader-userInfo">
+                <a href="#" class="userItem">messages</a>
+                <a href="#" class="userItem">notifications</a>
+                <a href="#" class="userItem">imgs</a>
+            </div>
+        </div>
+    </header>
+
+<div class="appMain">
+    <section class="appMain-container">
+        <div class="card">
+            <div class="feed">
+                <div class="feedSource">xxx 赞了这个问题
+                <span class="time-stamp">
+                    一个小时前</span>
+                </div>
+                <div class="author">
+                    <a href="#" class="author-avatar">
+                        <img src="" alt="">
+                    
+                    <span class="author-name"><strong>喝喝</strong></span>
+                    </a>
+                    <span class="author-comment"><em>"这个人很懒, 什么也不写"</em></span>
+                </div>
+            </div>
+            <div class="content-cell">
+                <h3 class="content-title"><a href="">这个是一个知乎吗</a></h3>
+                <span class="content-richText">这个可以的这个可以的这个可以的这个可以的这个可以的这个可以的这个可以的这个可以的这个可以的这个可以的这个可以的这个可以的这个可以的这个可以的这个可以的这个...</span>
+                <button class="button-plain more">阅读全文</button>
+            </div>
+            <div class="card-actions">
+                <div class="wrapper ">
+                <button class="action-item button-plain ">
+                    <svg viewBox="0 0 20 18" class="icon" style="height:16px;width:12px;" width="12" height="16" aria-hidden="true" data-reactid="455"><title data-reactid="456"></title><g data-reactid="457"><path d="M0 15.243c0-.326.088-.533.236-.896l7.98-13.204C8.57.57 9.086 0 10 0s1.43.57 1.784 1.143l7.98 13.204c.15.363.236.57.236.896 0 1.386-.875 1.9-1.955 1.9H1.955c-1.08 0-1.955-.517-1.955-1.9z"></path></g></svg>
+                    赞成</button>
+                <button class="action-item button-plain action-item">
+                    <svg  class="icon vote-down "  viewBox="0 0 20 18" style="height:16px;width:12px;" width="12" height="16" aria-hidden="true" data-reactid="460"><title data-reactid="461"></title><g data-reactid="462"><path d="M0 15.243c0-.326.088-.533.236-.896l7.98-13.204C8.57.57 9.086 0 10 0s1.43.57 1.784 1.143l7.98 13.204c.15.363.236.57.236.896 0 1.386-.875 1.9-1.955 1.9H1.955c-1.08 0-1.955-.517-1.955-1.9z"></path></g></svg>
+                    反对</button>
+                </div>
+                <button class="action-item button-plain">
+                    <svg class="icon"  viewBox="0 0 24 24" width="1.2em" height="1.2em" data-reactid="481"><path d="M5.515 19.64l.918-5.355-3.89-3.792c-.926-.902-.639-1.784.64-1.97L8.56 7.74l2.404-4.871c.572-1.16 1.5-1.16 2.072 0L15.44 7.74l5.377.782c1.28.186 1.566 1.068.64 1.97l-3.89 3.793.918 5.354c.219 1.274-.532 1.82-1.676 1.218L12 18.33l-4.808 2.528c-1.145.602-1.896.056-1.677-1.218z" fill-rule="evenodd" data-reactid="482"></path></svg>
+                    收藏</button>
+                <button class="action-item button-plain">
+                    <svg class="icon"  viewBox="0 0 24 24" width="1.2em" height="1.2em" data-reactid="487"><path d="M2 8.437C2 5.505 4.294 3.094 7.207 3 9.243 3 11.092 4.19 12 6c.823-1.758 2.649-3 4.651-3C19.545 3 22 5.507 22 8.432 22 16.24 13.842 21 12 21 10.158 21 2 16.24 2 8.437z" fill-rule="evenodd" data-reactid="488"></path></svg>
+                    关注</button>
+                <span class="action-item comment">
+                    <svg class="icon" viewBox="0 0 24 24" width="1.2em" height="1.2em" data-reactid="466"><path d="M10.241 19.313a.97.97 0 0 0-.77.2 7.908 7.908 0 0 1-3.772 1.482.409.409 0 0 1-.38-.637 5.825 5.825 0 0 0 1.11-2.237.605.605 0 0 0-.227-.59A7.935 7.935 0 0 1 3 11.25C3 6.7 7.03 3 12 3s9 3.7 9 8.25-4.373 9.108-10.759 8.063z" fill-rule="evenodd" data-reactid="467"></path></svg>
+                    0条评论</span>
+            </div>
+        </div>
+    
+    </section>
+    <section class="appMain-slideBar">
+        
+        sfs
+    </section>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> 复制知乎</title>
+    <link rel="stylesheet" href="fuvivihu.css">
+</head>
+<body>
+    <header role="banner" class="AppHeader">
+        <div class="AppHeader-inner">
+            <a href="#" aria-label="vihu" >
+                <svg viewBox="0 0 200 91" class="Icon ZhihuLogo Icon--logo" style="height:30px;width:64px;" width="64" height="30" aria-hidden="true" data-reactid="10"><title data-reactid="11"></title><g data-reactid="12"><path d="M53.29 80.035l7.32.002 2.41 8.24 13.128-8.24h15.477v-67.98H53.29v67.978zm7.79-60.598h22.756v53.22h-8.73l-8.718 5.473-1.587-5.46-3.72-.012v-53.22zM46.818 43.162h-16.35c.545-8.467.687-16.12.687-22.955h15.987s.615-7.05-2.68-6.97H16.807c1.09-4.1 2.46-8.332 4.1-12.708 0 0-7.523 0-10.085 6.74-1.06 2.78-4.128 13.48-9.592 24.41 1.84-.2 7.927-.37 11.512-6.94.66-1.84.785-2.08 1.605-4.54h9.02c0 3.28-.374 20.9-.526 22.95H6.51c-3.67 0-4.863 7.38-4.863 7.38H22.14C20.765 66.11 13.385 79.24 0 89.62c6.403 1.828 12.784-.29 15.937-3.094 0 0 7.182-6.53 11.12-21.64L43.92 85.18s2.473-8.402-.388-12.496c-2.37-2.788-8.768-10.33-11.496-13.064l-4.57 3.627c1.363-4.368 2.183-8.61 2.46-12.71H49.19s-.027-7.38-2.372-7.38zm128.752-.502c6.51-8.013 14.054-18.302 14.054-18.302s-5.827-4.625-8.556-1.27c-1.874 2.548-11.51 15.063-11.51 15.063l6.012 4.51zm-46.903-18.462c-2.814-2.577-8.096.667-8.096.667s12.35 17.2 12.85 17.953l6.08-4.29s-8.02-11.752-10.83-14.33zM199.99 46.5c-6.18 0-40.908.292-40.953.292v-31.56c1.503 0 3.882-.124 7.14-.376 12.773-.753 21.914-1.25 27.427-1.504 0 0 3.817-8.496-.185-10.45-.96-.37-7.24 1.43-7.24 1.43s-51.63 5.153-72.61 5.64c.5 2.756 2.38 5.336 4.93 6.11 4.16 1.087 7.09.53 15.36.277 7.76-.5 13.65-.76 17.66-.76v31.19h-41.71s.88 6.97 7.97 7.14h33.73v22.16c0 4.364-3.498 6.87-7.65 6.6-4.4.034-8.15-.36-13.027-.566.623 1.24 1.977 4.496 6.035 6.824 3.087 1.502 5.054 2.053 8.13 2.053 9.237 0 14.27-5.4 14.027-14.16V53.93h38.235c3.026 0 2.72-7.432 2.72-7.432z" fill-rule="evenodd"></path></g></svg>
+            </a>
+            <nav role="navigation" class="AppHeader-nav">
+                <a href="#" class="AppHeader-navItem">首页</a>
+                <a href="#" class="AppHeader-navItem">发现</a>
+                <a href="#" class="AppHeader-navItem">话题</a>
+            </nav>
+            <div class="searchBar" role="search">
+                <form class="searchBar-toolWrapper">
+                    <div class="input-wrapper">
+                        <input type="text" class="input" placeholder="搜索你感兴趣的内容">
+                    </div>
+                    <div class="input-after">
+                        <button class="searchBar-searchIcon">
+                            <svg viewBox="0 0 16 16" class="Icon Icon--search" style="height:16px;width:16px;" width="16" height="16" aria-hidden="true" data-reactid="26"><title data-reactid="27"></title><g data-reactid="28"><path d="M12.054 10.864c.887-1.14 1.42-2.57 1.42-4.127C13.474 3.017 10.457 0 6.737 0S0 3.016 0 6.737c0 3.72 3.016 6.737 6.737 6.737 1.556 0 2.985-.533 4.127-1.42l3.103 3.104c.765.46 1.705-.37 1.19-1.19l-3.103-3.104zm-5.317.925c-2.786 0-5.053-2.267-5.053-5.053S3.95 1.684 6.737 1.684 11.79 3.95 11.79 6.737 9.522 11.79 6.736 11.79z"></path></g></svg>
+                        </button>
+                    </div>
+                </form>
+                <button class="searchBar-askButton button">提问</button>
+            
+            </div>
+            <div class="AppHeader-userInfo">
+                <div class="AppHeader-notification">
+                】    <button class="button button-plain ">
+                        <svg viewBox="0 0 20 22" class="Icon Icon--news" width="20" height="20" aria-hidden="true" style="height: 20px; width: 20px;"><title></title><g><path d="M2.502 14.08C3.1 10.64 2 3 8.202 1.62 8.307.697 9.08 0 10 0s1.694.697 1.797 1.62C18 3 16.903 10.64 17.497 14.076c.106 1.102.736 1.855 1.7 2.108.527.142.868.66.793 1.206-.075.546-.542.95-1.09.943H1.1C.55 18.34.084 17.936.01 17.39c-.075-.547.266-1.064.794-1.206.963-.253 1.698-1.137 1.698-2.104zM10 22c-1.417.003-2.602-1.086-2.73-2.51-.004-.062.02-.124.063-.17.043-.045.104-.07.166-.07h5c.063 0 .124.025.167.07.044.046.067.108.063.17-.128 1.424-1.313 2.513-2.73 2.51z"></path></g></svg>
+                    </button>
+                </div>
+                <div class="AppHeader-messages">
+                    <button class="button button-plain">
+                        <svg viewBox="0 0 20 20" class="Icon Icon--message" width="20" height="20" aria-hidden="true" style="height: 20px; width: 20px;"><title></title><g><path d="M9 0C3.394 0 0 4.13 0 8c0 1.654.522 3.763 2.014 5.566.314.292.518.82.454 1.17-.165 1.488-.842 1.905-.842 1.905-.328.332.105.67.588.582 1.112-.2 2.07-.58 3.526-1.122.4-.202.464-.147.78-.078C11.524 17.764 18 14 18 8c0-3.665-3.43-8-9-8z"></path><path d="M19.14 9.628c.758.988.86 2.01.86 3.15 0 1.195-.62 3.11-1.368 3.938-.21.23-.354.467-.308.722.12 1.073.614 1.5.614 1.5.237.24-.188.563-.537.5-.802-.145-1.494-.42-2.545-.81-.29-.146-.336-.106-.563-.057-2.043.712-4.398.476-6.083-.926 5.964-.524 8.726-3.03 9.93-8.016z"></path></g></svg>
+                    </button>
+                </div>
+                <div class="AppHeader-profile">
+                    <button class="button-plain">
+                        <img class="Avatar AppHeader-profileAvatar" width="30" height="30" src="https://pic4.zhimg.com/d39fdd9da_is.jpg" srcset="https://pic4.zhimg.com/d39fdd9da_im.jpg 2x">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+<main role="main" class="App-main">
+    <div class="topStory-container">
+        <div class="topStory-mainColumn">
+            <div class="card">
+                <div class="topStoryHeader">
+                    <div class="topStoryHeader-nav">
+                        <button class="button-plain topStoryHeader-item">
+                            <svg width="16" height="16" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg" class="Icon Icon--question" style="height:16px;width:16px;" aria-hidden="true" data-reactid="57"><title data-reactid="58"></title><g data-reactid="59"><g transform="translate(-3 -3)" fill="#8590A6" fill-rule="evenodd">     <path d="M3.833 6.356c0-1.66 1.334-3.007 2.993-3.007h9.348c1.653 0 2.993 1.338 2.993 3.006v8.498c0 1.66-1.266 3.467-2.812 4.03l-1.09.396c-2.08.757-5.447.76-7.53 0l-1.09-.396c-1.553-.565-2.812-2.363-2.812-4.03V6.356zm1.643.67v7.492c0 1.1.84 2.314 1.873 2.697l2.277.844c1.035.383 2.712.383 3.746 0l2.278-.845c1.036-.384 1.874-1.59 1.874-2.697V7.026c0-1.1-.897-2.003-2.003-2.003H7.48c-1.118 0-2.004.897-2.004 2.003z"></path>     <path d="M13.012 11.46l-.422.29c-.232.177-.433.53-.433.53s-.08.134-.11.398v.16h-1.63v-.24c.02-.555.11-.86.343-1.13.364-.422 1.168-.935 1.202-.956.114-.086.212-.184.284-.288.17-.23.244-.412.244-.59 0-.25-.074-.478-.22-.682-.143-.197-.41-.296-.798-.296-.385 0-.648.12-.806.368-.162.254-.243.523-.243.796l-.005.23-1.656-.003.003-.23c.043-1.007.406-1.732 1.078-2.155.424-.27 1.113-.396 1.657-.406.873.01 1.39.193 1.923.575.54.387.815.965.815 1.72 0 .422-.135.82-.4 1.18-.14.193-.442.434-.826.73z"></path>     <ellipse cx="11.226" cy="14.791" rx="1.095" ry="1.116"></ellipse>   </g></g></svg>
+                            提问</button>
+                        <a href="#" class="topStoryHeader-item">
+                            <svg xmlns="http://www.w3.org/2000/svg"  class="Icon" width="16" height="16" data-reactid="73"><title data-reactid="74"></title><g data-reactid="75"><path d="M12.63 2.02V0h1.35v2.02H16v1.35h-2.02V5.4h-1.35V3.36H10.6V2.02h2.03zm-.17 4.9h1.7v4.76c0 1.5-.17 2.05-.46 2.6-.3.55-.73.98-1.28 1.27-.54.3-1.1.45-2.6.45h-5.5c-1.5 0-2.05-.16-2.6-.45-.55-.3-.98-.72-1.27-1.27-.3-.55-.45-1.1-.45-2.6v-5.5c0-1.5.16-2.06.45-2.6.3-.55.72-.98 1.27-1.28.55-.3 1.1-.45 2.6-.45H9.1v1.7H4.3c-1.12 0-1.46.05-1.8.24-.26.1-.45.3-.58.55-.2.35-.26.7-.26 1.8v5.5c0 1.13.07 1.47.26 1.8.13.27.32.46.58.6.34.18.68.25 1.8.25h5.5c1.12 0 1.46-.06 1.8-.25.27-.13.46-.32.6-.58.18-.34.24-.68.24-1.8V6.9zM8.6 6.7c.7-.16 1.45.06 1.98.6.83.83.83 2.2 0 3.04l-.03.03c-.84.85-2.2.85-3.04 0l-1.92-2c-.25-.24-.64-.24-.88 0l-.04.04c-.25.28-.25.7 0 .95.15.16.37.22.57.17.4-.1.82.18.9.58.1.4-.16.82-.57.9-.7.17-1.46-.04-1.98-.58-.83-.85-.83-2.2 0-3.06l.03-.02c.86-.85 2.2-.85 3.05 0L8.6 9.3c.24.25.63.25.87 0l.03-.02c.25-.26.25-.67 0-.93-.16-.15-.37-.2-.58-.17-.4.1-.8-.16-.9-.57-.1-.4.16-.8.57-.9z"></path></g></svg>
+                            想法</a>
+                        <a href="#" class="topStoryHeader-item">
+                            <svg width="16" height="16" viewBox="0 0 17 18" xmlns="http://www.w3.org/2000/svg" class="Icon Icon--paper" style="height:16px;width:16px;" aria-hidden="true" data-reactid="63"><title data-reactid="64"></title><g data-reactid="65"><g fill="#8590A6" fill-rule="evenodd">     <path d="M.833 4.35c0-2.21 1.79-4 4.01-4h7.315c2.214 0 4.01 1.79 4.01 4v8.743c0 2.21-1.79 4-4.01 4H4.842c-2.214 0-4.01-1.792-4.01-4V4.35zm1.643-.32v9.383c0 1.106.897 2.006 2.003 2.006h8.04c1.118 0 2.004-.9 2.004-2.007V4.03c0-1.107-.897-2.007-2.003-2.007H4.48c-1.118 0-2.004.898-2.004 2.006z"></path><path d="M4.667 4.814h7.666v1.674H4.667V4.814zm0 2.79h7.666V9.28H4.667V7.604zm0 2.79h4.928v1.676H4.667v-1.675z"></path>   </g></g></svg>
+                            回答</a>
+                        <span class="topStoryHeader-item">
+                            <svg width="16" height="16" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" class="Icon Icon--write" style="height:16px;width:16px;" aria-hidden="true" data-reactid="68"><title data-reactid="69"></title><g data-reactid="70"><g fill="none" fill-rule="evenodd">     <path d="M9.595 2.023H4.842c-2.22 0-4.01 1.793-4.01 4.005v7.62c0 2.21 1.796 4.003 4.01 4.003h7.316c2.22 0 4.01-1.792 4.01-4.003v-7.11.51L14.523 8.72v4.253c0 1.66-1.336 3.004-3.01 3.004h-6.03c-1.66 0-3.008-1.338-3.008-3.004V6.7c0-1.657 1.336-3.002 3.01-3.002h2.467L9.595 2.03v-.007z" fill="#8590A6"></path>     <path d="M6.372 11.08c-.185-.915.2-2.238.85-2.888l6.616-6.616c.565-.565 1.472-.567 2.038 0 .56.56.56 1.477 0 2.038L9.258 10.23c-.652.65-1.975 1.034-2.888.85z" stroke="#8590A6" stroke-width="1.5"></path>     <path fill="#8590A6" d="M13.04 2.088l2.324 2.324-.987.986-2.323-2.324z"></path>   </g></g></svg>
+                            写文章</span>
+                    </div>
+                    <a class="topStory-rightItem">
+                        草稿(1)
+                    </a>
+                </div>
+            </div>
+            <div class="topStoryMain">
+                <div class="card topStory-item">
+                    <button class="button button-plain topStory-rightButton">
+                        <svg viewBox="0 0 14 14" class="Icon Icon--remove" style="height:10px;width:10px;" width="10" height="10" aria-hidden="true" data-reactid="84"><title data-reactid="85"></title><g data-reactid="86"><path d="M8.486 7l5.208-5.207c.408-.408.405-1.072-.006-1.483-.413-.413-1.074-.413-1.482-.005L7 5.515 1.793.304C1.385-.103.72-.1.31.31-.103.724-.103 1.385.305 1.793L5.515 7l-5.21 5.207c-.407.408-.404 1.072.007 1.483.413.413 1.074.413 1.482.005L7 8.485l5.207 5.21c.408.407 1.072.404 1.483-.007.413-.413.413-1.074.005-1.482L8.485 7z"></path></g></svg>
+                    </button>
+                    <div class="feed">
+                        <div class="feedSource">
+                            <div class="feedSource-firstLine">
+                                <span> <span class="user-link">木西AlexanDENG</span>赞同了回答</span>
+                                <span>7分钟前</span>
+                            </div>
+                            <div class="AuthorInfo feedSource-byLine">
+                                <span class="userLink">
+                                    <a href="#" class="userLink-link">
+                                        <img class="avatar" src="" >
+                                    </a>
+                                </span>
+                                <div class="authorInfo-content">
+                                    <div class="authorInfo-head">
+                                        <span class="authorInfo-name">
+                                            <a href="#">文石</a>
+                                        </span>
+                                    </div>
+                                    <div class="authorInfo-detail">
+                                        <div class="authorInfo-badge">
+                                            <div class="authorInfo-badgeText">
+                                                低级开发
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contentItem">
+                            <h2 class="contentItem-title">
+                                <a href="">如何看待 2018 年春晚直播期间</a>
+                            </h2>
+                            <div class="richContent">
+                                <div class="richContent-inner">
+                                    <span class="RichText">
+                                        大家好，大家好，大家好，大家好，大家好，大家好，大家好，大家好，大家好，大家好，大家好，大家好，大家好，大家好，大家好，大家好，大家好，大家好，大家好，大家好，大家好，大家好，大家好
+                                    </span>
+                                    <button class="button  contentItem-more">阅读全文</button>
+                                </div>
+                                <div class="contentItem-actions">
+                                    <span>
+                                        <button class="button voteButton button-plain">赞成</button>
+                                        <button class="button voteButton button-plain">反对</button>
+                                    </span>
+                                    <button class="button contentItem-action button-plain">
+                                        <span></span>
+                                        0条评论
+                                    </button>
+                                    <button class="button contentItem-action button-plain">收藏</button>
+                                    
+    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        
+        <div class="globalSideBar">
+        
+        
+        </div>
+    </div>
+</main>
+
+
+</body>
+</html>
