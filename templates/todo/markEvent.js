@@ -16,7 +16,7 @@ const colorSelect = (len) => {
 
 const colorResponse = () => {
     let data = markData()
-    const {year, month, date} = currentHightlightTime()
+    const {year, month, date} = currentHighlightTime()
     for (let d of data) {
         if( d.year === year && d.month === month && d.date === date ) {
             const active = e('.active')
@@ -73,7 +73,7 @@ const markData = () => {
 const initMark = () => {
     let data = markData()
 
-    const {year, month} = currentHightlightTime()
+    const {year, month} = currentHighlightTime()
     const {dateContainer} = container()
 
     for (let d of data) {

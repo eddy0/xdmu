@@ -19,7 +19,7 @@ const container = () => {
     }
 }
 
-const currentHightlightTime = () => {
+const currentHighlightTime = () => {
     const {yearContainer, monthContainer, dateContainer} = container()
     //current year
     const selectedYear = yearContainer.innerText
@@ -38,7 +38,7 @@ const currentHightlightTime = () => {
 }
 
 const dateUpdate = () => {
-    const {year, month, date} = currentHightlightTime()
+    const {year, month, date} = currentHighlightTime()
     // calendar date update
     mapUpdate(year, month, date)
     // reminder date update
@@ -50,7 +50,7 @@ const yearEvent = () => {
 
     const pre = e('.previous')
     pre.addEventListener('click', () => {
-        let {year, month, date} = currentHightlightTime()
+        let {year, month, date} = currentHighlightTime()
         year -= 1
         yearContainer.innerText = year
 
@@ -60,7 +60,7 @@ const yearEvent = () => {
 
     const next = e('.next')
     next.addEventListener('click', () => {
-        let {year, month, date} = currentHightlightTime()
+        let {year, month, date} = currentHighlightTime()
         year += 1
         yearContainer.innerText = year
 
@@ -184,7 +184,7 @@ const mapUpdate = (year, month, date) => {
 }
 
 const contentYearUpdate = () => {
-    let {year} = currentHightlightTime()
+    let {year} = currentHighlightTime()
     const {contentYearContainer} = container()
     contentYearContainer.innerText = year
 }
@@ -205,7 +205,7 @@ const contentMonthUpdate = () => {
         11: 'DECEMBER',
     }
     const {contentMonthContainer} = container()
-    const {month} = currentHightlightTime()
+    const {month} = currentHighlightTime()
     contentMonthContainer.innerHTML = monthMap[month]
 }
 
@@ -216,7 +216,7 @@ const contentDateUpdate = () => {
         3: 'ST'
     }
 
-    const {date} = currentHightlightTime()
+    const {date} = currentHighlightTime()
     let orderedDate = (date in dateMap)? `${date}${dateMap[date]}`: `${date}TH`
     const {contentDateContainer} = container()
     contentDateContainer.innerText = orderedDate
@@ -233,7 +233,7 @@ const contentDayUpdate = () => {
         5: 'FRIDAY',
         6: 'SATURDAY',
     }
-    const {day} = currentHightlightTime()
+    const {day} = currentHighlightTime()
     const {contentDayContainer} = container()
     contentDayContainer.innerHTML = dayMap[day]
 }

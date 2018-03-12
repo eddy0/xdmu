@@ -59,7 +59,6 @@ const reload = (year, month, date) => {
 
 const __main = () => {
     loadFile()
-    // globalData = retrieveFile()
     init()
     dateEvents()
     todoEvent()

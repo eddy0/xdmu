@@ -111,7 +111,7 @@ const validData = (unixTime) => {
 }
 
 const dateByHighlight = () => {
-    const {year, month, date} = currentHightlightTime()
+    const {year, month, date} = currentHighlightTime()
     const unixTime = new Date(year, month, date).getTime()
     const database = validData(unixTime) || []
     return database
@@ -134,7 +134,7 @@ const createData = (data) => {
     let globalData = __globalData
 
     let form = {}
-    const {year, month, date} = currentHightlightTime()
+    const {year, month, date} = currentHighlightTime()
     const unixTime = new Date(year, month, date).getTime()
     const time = String(unixTime)
     if (globalData[time] === undefined) {
@@ -171,7 +171,7 @@ const createData = (data) => {
 
 const removeData = (index) => {
     let globalData = __globalData
-    const {year, month, date} = currentHightlightTime()
+    const {year, month, date} = currentHighlightTime()
     const unixTime = String(new Date(year, month, date).getTime())
     let database = __globalData[unixTime]
     let data = database.find( d  => d.id === Number(index))
@@ -186,7 +186,7 @@ const removeData = (index) => {
 const updateData = (form) => {
     let globalData = __globalData
 
-    const {year, month, date} = currentHightlightTime()
+    const {year, month, date} = currentHighlightTime()
     const unixTime = new Date(year, month, date).getTime()
     const time = String(unixTime)
     const database = globalData[time]
