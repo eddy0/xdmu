@@ -13,143 +13,300 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45938173">
+    <splitter split-orientation="horizontal" split-proportion="0.80670613">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="todo.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/todo/todo.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1041">
-                  <caret line="126" column="4" lean-forward="true" selection-start-line="126" selection-start-column="4" selection-end-line="126" selection-end-column="4" />
-                  <folding>
-                    <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="e#436#440#1" expanded="true" />
-                    <element signature="e#482#486#1" expanded="true" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/todo/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="400">
-                  <caret line="59" column="21" lean-forward="false" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-                  <folding>
-                    <element signature="e#66#104#0" expanded="false" />
-                    <element signature="e#173#520#0" expanded="false" />
-                    <element signature="e#562#685#0" expanded="false" />
-                    <element signature="e#731#999#0" expanded="false" />
-                    <element signature="e#1028#1121#0" expanded="false" />
-                    <element signature="e#1142#1223#0" expanded="false" />
-                    <element signature="e#1263#1361#0" expanded="false" />
-                    <element signature="e#1384#1447#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="reminder.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/todo/reminder.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="207" column="24" lean-forward="false" selection-start-line="207" selection-start-column="24" selection-end-line="207" selection-end-column="24" />
-                  <folding>
-                    <element signature="e#32#348#0" expanded="false" />
-                    <element signature="e#383#808#0" expanded="false" />
-                    <element signature="e#832#1078#0" expanded="false" />
-                    <element signature="e#1111#2310#0" expanded="false" />
-                    <element signature="e#2349#2500#0" expanded="false" />
-                    <element signature="e#2543#3416#0" expanded="false" />
-                    <element signature="e#3465#3849#0" expanded="false" />
-                    <element signature="e#3899#5749#0" expanded="false" />
-                    <element signature="e#5773#6371#0" expanded="false" />
-                    <element signature="e#6397#6456#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="calendarEvent.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/templates/todo/calendarEvent.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="334">
-                  <caret line="189" column="1" lean-forward="true" selection-start-line="189" selection-start-column="1" selection-end-line="189" selection-end-column="1" />
-                  <folding>
-                    <element signature="e#24#654#0" expanded="false" />
-                    <element signature="e#691#1236#0" expanded="false" />
-                    <element signature="e#1986#2455#0" expanded="false" />
-                    <element signature="e#2481#3311#0" expanded="false" />
-                    <element signature="e#3358#4096#0" expanded="false" />
-                    <element signature="e#4145#4319#0" expanded="false" />
-                    <element signature="e#4357#4770#0" expanded="false" />
-                    <element signature="e#4806#5045#0" expanded="false" />
-                    <element signature="e#5088#5251#0" expanded="false" />
-                    <element signature="e#5475#5738#0" expanded="false" />
-                    <element signature="e#6686#6785#0" expanded="false" />
-                    <element signature="e#6812#6856#0" expanded="false" />
-                    <marker date="1520884053835" expanded="true" signature="3424:3457" ph="..." />
-                    <marker date="1520884053835" expanded="true" signature="3458:3530" ph="..." />
-                    <marker date="1520884053835" expanded="true" signature="3655:3736" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="horizontal" split-proportion="0.7181996">
+          <split-first>
+            <splitter split-orientation="horizontal" split-proportion="0.6632584">
+              <split-first>
+                <splitter split-orientation="horizontal" split-proportion="0.55246913">
+                  <split-first>
+                    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+                      <file leaf-file-name="todo.html" pinned="false" current-in-tab="false">
+                        <entry file="file://$PROJECT_DIR$/templates/todo/todo.html">
+                          <provider selected="true" editor-type-id="text-editor">
+                            <state relative-caret-position="869">
+                              <caret line="146" column="16" lean-forward="false" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="16" />
+                              <folding>
+                                <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                                <element signature="e#436#440#1" expanded="true" />
+                                <element signature="e#482#486#1" expanded="true" />
+                                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                                <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                                <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                              </folding>
+                            </state>
+                          </provider>
+                        </entry>
+                      </file>
+                      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+                        <entry file="file://$PROJECT_DIR$/templates/todo/main.js">
+                          <provider selected="true" editor-type-id="text-editor">
+                            <state relative-caret-position="475">
+                              <caret line="59" column="21" lean-forward="false" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+                              <folding>
+                                <element signature="e#66#104#0" expanded="false" />
+                                <element signature="e#173#520#0" expanded="false" />
+                                <element signature="e#562#685#0" expanded="false" />
+                                <element signature="e#731#999#0" expanded="false" />
+                                <element signature="e#1028#1121#0" expanded="false" />
+                                <element signature="e#1142#1223#0" expanded="false" />
+                                <element signature="e#1263#1361#0" expanded="false" />
+                                <element signature="e#1384#1447#0" expanded="false" />
+                              </folding>
+                            </state>
+                          </provider>
+                        </entry>
+                      </file>
+                      <file leaf-file-name="reminder.js" pinned="false" current-in-tab="false">
+                        <entry file="file://$PROJECT_DIR$/templates/todo/reminder.js">
+                          <provider selected="true" editor-type-id="text-editor">
+                            <state relative-caret-position="500">
+                              <caret line="207" column="24" lean-forward="false" selection-start-line="207" selection-start-column="24" selection-end-line="207" selection-end-column="24" />
+                              <folding>
+                                <element signature="e#32#348#0" expanded="false" />
+                                <element signature="e#383#808#0" expanded="false" />
+                                <element signature="e#832#1078#0" expanded="false" />
+                                <element signature="e#1111#2310#0" expanded="false" />
+                                <element signature="e#2349#2500#0" expanded="false" />
+                                <element signature="e#2543#3416#0" expanded="false" />
+                                <element signature="e#3465#3849#0" expanded="false" />
+                                <element signature="e#3899#5749#0" expanded="false" />
+                                <element signature="e#5773#6371#0" expanded="false" />
+                              </folding>
+                            </state>
+                          </provider>
+                        </entry>
+                      </file>
+                      <file leaf-file-name="calendarEvent.js" pinned="false" current-in-tab="false">
+                        <entry file="file://$PROJECT_DIR$/templates/todo/calendarEvent.js">
+                          <provider selected="true" editor-type-id="text-editor">
+                            <state relative-caret-position="1000">
+                              <caret line="259" column="0" lean-forward="true" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
+                              <folding>
+                                <element signature="e#24#654#0" expanded="false" />
+                                <element signature="e#427#652#0" expanded="false" />
+                                <element signature="e#691#1236#0" expanded="false" />
+                                <element signature="e#1263#1430#0" expanded="false" />
+                                <element signature="e#1456#1959#0" expanded="false" />
+                                <element signature="e#1570#1727#0" expanded="false" />
+                                <element signature="e#1799#1956#0" expanded="false" />
+                                <element signature="e#1986#2455#0" expanded="false" />
+                                <element signature="e#2102#2452#0" expanded="false" />
+                                <element signature="e#2481#3311#0" expanded="false" />
+                                <element signature="e#2582#3308#0" expanded="false" />
+                                <element signature="e#2785#3302#0" expanded="false" />
+                                <element signature="e#2988#3061#0" expanded="false" />
+                                <element signature="e#3358#4096#0" expanded="false" />
+                                <element signature="e#3591#4080#0" expanded="false" />
+                                <element signature="e#3763#4058#0" expanded="false" />
+                                <element signature="e#4145#4319#0" expanded="false" />
+                                <element signature="e#4357#4770#0" expanded="false" />
+                                <element signature="e#4469#4497#0" expanded="false" />
+                                <element signature="e#4542#4570#0" expanded="false" />
+                                <element signature="e#4806#5045#0" expanded="false" />
+                                <element signature="e#4948#4981#0" expanded="false" />
+                                <element signature="e#5088#5251#0" expanded="false" />
+                                <element signature="e#5285#5417#0" expanded="false" />
+                                <element signature="e#5452#5885#0" expanded="false" />
+                                <element signature="e#5475#5738#0" expanded="false" />
+                                <element signature="e#5919#6220#0" expanded="false" />
+                                <element signature="e#5941#5998#0" expanded="false" />
+                                <element signature="e#6253#6573#0" expanded="false" />
+                                <element signature="e#6274#6436#0" expanded="false" />
+                                <element signature="e#6604#6656#0" expanded="false" />
+                                <element signature="e#6686#6785#0" expanded="false" />
+                                <element signature="e#6812#6856#0" expanded="false" />
+                              </folding>
+                            </state>
+                          </provider>
+                        </entry>
+                      </file>
+                      <file leaf-file-name="markEvent.js" pinned="false" current-in-tab="false">
+                        <entry file="file://$PROJECT_DIR$/templates/todo/markEvent.js">
+                          <provider selected="true" editor-type-id="text-editor">
+                            <state relative-caret-position="125">
+                              <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+                              <folding>
+                                <element signature="e#30#248#0" expanded="false" />
+                                <element signature="e#120#153#0" expanded="false" />
+                                <element signature="e#195#228#0" expanded="false" />
+                                <element signature="e#278#955#0" expanded="false" />
+                                <element signature="e#385#953#0" expanded="false" />
+                                <element signature="e#457#947#0" expanded="false" />
+                                <element signature="e#572#808#0" expanded="false" />
+                                <element signature="e#614#666#0" expanded="false" />
+                                <element signature="e#672#794#0" expanded="false" />
+                                <element signature="e#814#937#0" expanded="false" />
+                                <element signature="e#855#923#0" expanded="false" />
+                                <element signature="e#996#1479#0" expanded="false" />
+                                <element signature="e#1417#1477#0" expanded="false" />
+                                <element signature="e#1504#1976#0" expanded="false" />
+                                <element signature="e#1628#1953#0" expanded="false" />
+                                <element signature="e#2001#2380#0" expanded="false" />
+                                <element signature="e#2144#2378#0" expanded="false" />
+                                <element signature="e#2196#2372#0" expanded="false" />
+                                <element signature="e#2233#2362#0" expanded="false" />
+                                <element signature="e#2408#2790#0" expanded="false" />
+                                <element signature="e#2599#2689#0" expanded="false" />
+                                <element signature="e#2695#2788#0" expanded="false" />
+                                <element signature="e#2821#2862#0" expanded="false" />
+                              </folding>
+                            </state>
+                          </provider>
+                        </entry>
+                      </file>
+                    </leaf>
+                  </split-first>
+                  <split-second>
+                    <leaf>
+                      <file leaf-file-name="markEvent.js" pinned="false" current-in-tab="true">
+                        <entry file="file://$PROJECT_DIR$/templates/todo/markEvent.js">
+                          <provider selected="true" editor-type-id="text-editor">
+                            <state relative-caret-position="400">
+                              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+                              <folding>
+                                <element signature="e#30#248#0" expanded="false" />
+                                <element signature="e#120#153#0" expanded="false" />
+                                <element signature="e#195#228#0" expanded="false" />
+                                <element signature="e#278#955#0" expanded="false" />
+                                <element signature="e#385#953#0" expanded="false" />
+                                <element signature="e#457#947#0" expanded="false" />
+                                <element signature="e#572#808#0" expanded="false" />
+                                <element signature="e#614#666#0" expanded="false" />
+                                <element signature="e#672#794#0" expanded="false" />
+                                <element signature="e#814#937#0" expanded="false" />
+                                <element signature="e#855#923#0" expanded="false" />
+                                <element signature="e#996#1479#0" expanded="false" />
+                                <element signature="e#1417#1477#0" expanded="false" />
+                                <element signature="e#1504#1976#0" expanded="false" />
+                                <element signature="e#1628#1953#0" expanded="false" />
+                                <element signature="e#2001#2380#0" expanded="false" />
+                                <element signature="e#2144#2378#0" expanded="false" />
+                                <element signature="e#2196#2372#0" expanded="false" />
+                                <element signature="e#2233#2362#0" expanded="false" />
+                                <element signature="e#2408#2790#0" expanded="false" />
+                                <element signature="e#2599#2689#0" expanded="false" />
+                                <element signature="e#2695#2788#0" expanded="false" />
+                                <element signature="e#2821#2862#0" expanded="false" />
+                              </folding>
+                            </state>
+                          </provider>
+                        </entry>
+                      </file>
+                    </leaf>
+                  </split-second>
+                </splitter>
+              </split-first>
+              <split-second>
+                <leaf>
+                  <file leaf-file-name="calendarEvent.js" pinned="false" current-in-tab="true">
+                    <entry file="file://$PROJECT_DIR$/templates/todo/calendarEvent.js">
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="144">
+                          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+                          <folding>
+                            <element signature="e#24#654#0" expanded="false" />
+                            <element signature="e#427#652#0" expanded="false" />
+                            <element signature="e#691#1236#0" expanded="false" />
+                            <element signature="e#1263#1430#0" expanded="false" />
+                            <element signature="e#1456#1959#0" expanded="false" />
+                            <element signature="e#1570#1727#0" expanded="false" />
+                            <element signature="e#1799#1956#0" expanded="false" />
+                            <element signature="e#1986#2455#0" expanded="false" />
+                            <element signature="e#2102#2452#0" expanded="false" />
+                            <element signature="e#2481#3311#0" expanded="false" />
+                            <element signature="e#2582#3308#0" expanded="false" />
+                            <element signature="e#2785#3302#0" expanded="false" />
+                            <element signature="e#2988#3061#0" expanded="false" />
+                            <element signature="e#3358#4096#0" expanded="false" />
+                            <element signature="e#3591#4080#0" expanded="false" />
+                            <element signature="e#3763#4058#0" expanded="false" />
+                            <element signature="e#4145#4319#0" expanded="false" />
+                            <element signature="e#4357#4770#0" expanded="false" />
+                            <element signature="e#4469#4497#0" expanded="false" />
+                            <element signature="e#4542#4570#0" expanded="false" />
+                            <element signature="e#4806#5045#0" expanded="false" />
+                            <element signature="e#4948#4981#0" expanded="false" />
+                            <element signature="e#5088#5251#0" expanded="false" />
+                            <element signature="e#5285#5417#0" expanded="false" />
+                            <element signature="e#5452#5885#0" expanded="false" />
+                            <element signature="e#5475#5738#0" expanded="false" />
+                            <element signature="e#5919#6220#0" expanded="false" />
+                            <element signature="e#5941#5998#0" expanded="false" />
+                            <element signature="e#6253#6573#0" expanded="false" />
+                            <element signature="e#6274#6436#0" expanded="false" />
+                            <element signature="e#6604#6656#0" expanded="false" />
+                            <element signature="e#6686#6785#0" expanded="false" />
+                            <element signature="e#6812#6856#0" expanded="false" />
+                          </folding>
+                        </state>
+                      </provider>
+                    </entry>
+                  </file>
+                </leaf>
+              </split-second>
+            </splitter>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="reminder.js" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/templates/todo/reminder.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="550">
+                      <caret line="214" column="0" lean-forward="true" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
+                      <folding>
+                        <element signature="e#32#348#0" expanded="false" />
+                        <element signature="e#383#808#0" expanded="false" />
+                        <element signature="e#832#1078#0" expanded="false" />
+                        <element signature="e#1111#2310#0" expanded="false" />
+                        <element signature="e#2349#2500#0" expanded="false" />
+                        <element signature="e#2543#3416#0" expanded="false" />
+                        <element signature="e#3465#3849#0" expanded="false" />
+                        <element signature="e#3899#5749#0" expanded="false" />
+                        <element signature="e#5773#6371#0" expanded="false" />
+                        <element signature="e#6397#6456#0" expanded="false" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="markEvent.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/templates/todo/markEvent.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="669">
-                  <caret line="79" column="27" lean-forward="false" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
-                  <folding>
-                    <element signature="e#30#248#0" expanded="false" />
-                    <element signature="e#996#1481#0" expanded="false" />
-                    <element signature="e#1506#1978#0" expanded="false" />
-                    <element signature="e#2410#2792#0" expanded="false" />
-                    <marker date="1520884025086" expanded="true" signature="1123:1141" ph="..." />
-                    <marker date="1520884025086" expanded="true" signature="1208:1342" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="data.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/templates/todo/data.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="719">
-                  <caret line="188" column="43" lean-forward="true" selection-start-line="188" selection-start-column="43" selection-end-line="188" selection-end-column="43" />
+                <state relative-caret-position="575">
+                  <caret line="166" column="0" lean-forward="true" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
                   <folding>
-                    <element signature="e#671#675#0" expanded="false" />
-                    <element signature="e#1827#1971#0" expanded="false" />
-                    <element signature="e#1996#2085#0" expanded="false" />
-                    <element signature="e#2119#2534#0" expanded="false" />
-                    <element signature="e#2783#3042#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="reminder.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/todo/reminder.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-                  <folding>
-                    <element signature="e#32#348#0" expanded="false" />
-                    <element signature="e#832#1078#0" expanded="false" />
-                    <element signature="e#1111#2310#0" expanded="false" />
-                    <element signature="e#2543#3416#0" expanded="false" />
-                    <element signature="e#3899#5749#0" expanded="false" />
-                    <element signature="e#6397#6456#0" expanded="false" />
-                    <marker date="1520883544750" expanded="true" signature="1492:2288" ph="..." />
-                    <marker date="1520883544750" expanded="true" signature="1702:2273" ph="..." />
+                    <element signature="e#1#5#0" expanded="false" />
+                    <element signature="e#1157#1301#0" expanded="false" />
+                    <element signature="e#1226#1299#0" expanded="false" />
+                    <element signature="e#1326#1415#0" expanded="false" />
+                    <element signature="e#1449#1864#0" expanded="false" />
+                    <element signature="e#1516#1862#0" expanded="false" />
+                    <element signature="e#1554#1856#0" expanded="false" />
+                    <element signature="e#1630#1846#0" expanded="false" />
+                    <element signature="e#1681#1803#0" expanded="false" />
+                    <element signature="e#1896#2080#0" expanded="false" />
+                    <element signature="e#2113#2372#0" expanded="false" />
+                    <element signature="e#2243#2370#0" expanded="false" />
+                    <element signature="e#2291#2364#0" expanded="false" />
+                    <element signature="e#2435#3419#0" expanded="false" />
+                    <element signature="e#2678#2902#0" expanded="false" />
+                    <element signature="e#2695#2862#0" expanded="false" />
+                    <element signature="e#2738#2852#0" expanded="false" />
+                    <element signature="e#2908#3379#0" expanded="false" />
+                    <element signature="e#3146#3342#0" expanded="false" />
+                    <element signature="e#3198#3328#0" expanded="false" />
+                    <element signature="e#3451#3829#0" expanded="false" />
+                    <element signature="e#3725#3805#0" expanded="false" />
+                    <element signature="e#3860#4236#0" expanded="false" />
+                    <element signature="e#4164#4211#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -158,39 +315,13 @@
           <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/todo/utils.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="50">
-                  <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+                <state relative-caret-position="250">
+                  <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
                   <folding>
                     <element signature="e#159#199#0" expanded="false" />
                     <element signature="e#229#501#0" expanded="false" />
                     <element signature="e#535#724#0" expanded="false" />
                     <element signature="e#776#837#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="calendarEvent.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/todo/calendarEvent.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="429">
-                  <caret line="115" column="28" lean-forward="false" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
-                  <folding>
-                    <element signature="e#24#654#0" expanded="false" />
-                    <element signature="e#1263#1430#0" expanded="false" />
-                    <element signature="e#1456#1959#0" expanded="false" />
-                    <element signature="e#3358#4096#0" expanded="false" />
-                    <element signature="e#4145#4319#0" expanded="false" />
-                    <element signature="e#4357#4770#0" expanded="false" />
-                    <element signature="e#4806#5045#0" expanded="false" />
-                    <element signature="e#5088#5251#0" expanded="false" />
-                    <element signature="e#5285#5417#0" expanded="false" />
-                    <element signature="e#5452#5885#0" expanded="false" />
-                    <element signature="e#5475#5738#0" expanded="false" />
-                    <element signature="e#5919#6220#0" expanded="false" />
-                    <element signature="e#6253#6573#0" expanded="false" />
-                    <element signature="e#6604#6656#0" expanded="false" />
-                    <element signature="e#6686#6785#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -254,9 +385,9 @@
         <option value="$PROJECT_DIR$/templates/todo/reminder.js" />
         <option value="$PROJECT_DIR$/templates/todo/todo.html" />
         <option value="$PROJECT_DIR$/templates/todo/main.js" />
+        <option value="$PROJECT_DIR$/templates/todo/calendarEvent.js" />
         <option value="$PROJECT_DIR$/templates/todo/data.js" />
         <option value="$PROJECT_DIR$/templates/todo/markEvent.js" />
-        <option value="$PROJECT_DIR$/templates/todo/calendarEvent.js" />
       </list>
     </option>
   </component>
@@ -277,10 +408,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1556" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-2019" />
     <option name="y" value="-227" />
-    <option name="width" value="1552" />
+    <option name="width" value="2015" />
     <option name="height" value="1417" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -414,15 +545,15 @@
       <updated>1518661696183</updated>
       <workItem from="1518661699124" duration="45601000" />
       <workItem from="1520267167363" duration="69836000" />
-      <workItem from="1520523760952" duration="87591000" />
+      <workItem from="1520523760952" duration="88031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203028000" />
+    <option name="totallyTimeSpent" value="203468000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1556" y="-227" width="1552" height="1417" extended-state="0" />
+    <frame x="-2559" y="-227" width="2555" height="1417" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -452,7 +583,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -634,8 +765,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/todo/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        <state relative-caret-position="250">
+          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
           <folding>
             <element signature="e#159#199#0" expanded="false" />
             <element signature="e#229#501#0" expanded="false" />
@@ -645,10 +776,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/todo/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="166" column="0" lean-forward="true" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#5#0" expanded="false" />
+            <element signature="e#1157#1301#0" expanded="false" />
+            <element signature="e#1226#1299#0" expanded="false" />
+            <element signature="e#1326#1415#0" expanded="false" />
+            <element signature="e#1449#1864#0" expanded="false" />
+            <element signature="e#1516#1862#0" expanded="false" />
+            <element signature="e#1554#1856#0" expanded="false" />
+            <element signature="e#1630#1846#0" expanded="false" />
+            <element signature="e#1681#1803#0" expanded="false" />
+            <element signature="e#1896#2080#0" expanded="false" />
+            <element signature="e#2113#2372#0" expanded="false" />
+            <element signature="e#2243#2370#0" expanded="false" />
+            <element signature="e#2291#2364#0" expanded="false" />
+            <element signature="e#2435#3419#0" expanded="false" />
+            <element signature="e#2678#2902#0" expanded="false" />
+            <element signature="e#2695#2862#0" expanded="false" />
+            <element signature="e#2738#2852#0" expanded="false" />
+            <element signature="e#2908#3379#0" expanded="false" />
+            <element signature="e#3146#3342#0" expanded="false" />
+            <element signature="e#3198#3328#0" expanded="false" />
+            <element signature="e#3451#3829#0" expanded="false" />
+            <element signature="e#3725#3805#0" expanded="false" />
+            <element signature="e#3860#4236#0" expanded="false" />
+            <element signature="e#4164#4211#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/todo/todo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1041">
-          <caret line="126" column="4" lean-forward="true" selection-start-line="126" selection-start-column="4" selection-end-line="126" selection-end-column="4" />
+        <state relative-caret-position="869">
+          <caret line="146" column="16" lean-forward="false" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="16" />
           <folding>
             <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#436#440#1" expanded="true" />
@@ -660,9 +824,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/todo/calendarEvent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="259" column="0" lean-forward="true" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#654#0" expanded="false" />
+            <element signature="e#427#652#0" expanded="false" />
+            <element signature="e#691#1236#0" expanded="false" />
+            <element signature="e#1263#1430#0" expanded="false" />
+            <element signature="e#1456#1959#0" expanded="false" />
+            <element signature="e#1570#1727#0" expanded="false" />
+            <element signature="e#1799#1956#0" expanded="false" />
+            <element signature="e#1986#2455#0" expanded="false" />
+            <element signature="e#2102#2452#0" expanded="false" />
+            <element signature="e#2481#3311#0" expanded="false" />
+            <element signature="e#2582#3308#0" expanded="false" />
+            <element signature="e#2785#3302#0" expanded="false" />
+            <element signature="e#2988#3061#0" expanded="false" />
+            <element signature="e#3358#4096#0" expanded="false" />
+            <element signature="e#3591#4080#0" expanded="false" />
+            <element signature="e#3763#4058#0" expanded="false" />
+            <element signature="e#4145#4319#0" expanded="false" />
+            <element signature="e#4357#4770#0" expanded="false" />
+            <element signature="e#4469#4497#0" expanded="false" />
+            <element signature="e#4542#4570#0" expanded="false" />
+            <element signature="e#4806#5045#0" expanded="false" />
+            <element signature="e#4948#4981#0" expanded="false" />
+            <element signature="e#5088#5251#0" expanded="false" />
+            <element signature="e#5285#5417#0" expanded="false" />
+            <element signature="e#5452#5885#0" expanded="false" />
+            <element signature="e#5475#5738#0" expanded="false" />
+            <element signature="e#5919#6220#0" expanded="false" />
+            <element signature="e#5941#5998#0" expanded="false" />
+            <element signature="e#6253#6573#0" expanded="false" />
+            <element signature="e#6274#6436#0" expanded="false" />
+            <element signature="e#6604#6656#0" expanded="false" />
+            <element signature="e#6686#6785#0" expanded="false" />
+            <element signature="e#6812#6856#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/todo/markEvent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+          <folding>
+            <element signature="e#30#248#0" expanded="false" />
+            <element signature="e#120#153#0" expanded="false" />
+            <element signature="e#195#228#0" expanded="false" />
+            <element signature="e#278#955#0" expanded="false" />
+            <element signature="e#385#953#0" expanded="false" />
+            <element signature="e#457#947#0" expanded="false" />
+            <element signature="e#572#808#0" expanded="false" />
+            <element signature="e#614#666#0" expanded="false" />
+            <element signature="e#672#794#0" expanded="false" />
+            <element signature="e#814#937#0" expanded="false" />
+            <element signature="e#855#923#0" expanded="false" />
+            <element signature="e#996#1479#0" expanded="false" />
+            <element signature="e#1417#1477#0" expanded="false" />
+            <element signature="e#1504#1976#0" expanded="false" />
+            <element signature="e#1628#1953#0" expanded="false" />
+            <element signature="e#2001#2380#0" expanded="false" />
+            <element signature="e#2144#2378#0" expanded="false" />
+            <element signature="e#2196#2372#0" expanded="false" />
+            <element signature="e#2233#2362#0" expanded="false" />
+            <element signature="e#2408#2790#0" expanded="false" />
+            <element signature="e#2599#2689#0" expanded="false" />
+            <element signature="e#2695#2788#0" expanded="false" />
+            <element signature="e#2821#2862#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/todo/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="475">
           <caret line="59" column="21" lean-forward="false" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
           <folding>
             <element signature="e#66#104#0" expanded="false" />
@@ -679,8 +917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/todo/reminder.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="207" column="24" lean-forward="false" selection-start-line="207" selection-start-column="24" selection-end-line="207" selection-end-column="24" />
+        <state relative-caret-position="550">
+          <caret line="214" column="0" lean-forward="true" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
           <folding>
             <element signature="e#32#348#0" expanded="false" />
             <element signature="e#383#808#0" expanded="false" />
@@ -692,59 +930,6 @@
             <element signature="e#3899#5749#0" expanded="false" />
             <element signature="e#5773#6371#0" expanded="false" />
             <element signature="e#6397#6456#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/todo/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="188" column="43" lean-forward="true" selection-start-line="188" selection-start-column="43" selection-end-line="188" selection-end-column="43" />
-          <folding>
-            <element signature="e#671#675#0" expanded="false" />
-            <element signature="e#1827#1971#0" expanded="false" />
-            <element signature="e#1996#2085#0" expanded="false" />
-            <element signature="e#2119#2534#0" expanded="false" />
-            <element signature="e#2783#3042#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/todo/markEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="79" column="27" lean-forward="false" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
-          <folding>
-            <element signature="e#30#248#0" expanded="false" />
-            <element signature="e#996#1481#0" expanded="false" />
-            <element signature="e#1506#1978#0" expanded="false" />
-            <element signature="e#2410#2792#0" expanded="false" />
-            <marker date="1520884025086" expanded="true" signature="1123:1141" ph="..." />
-            <marker date="1520884025086" expanded="true" signature="1208:1342" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/todo/calendarEvent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="189" column="1" lean-forward="true" selection-start-line="189" selection-start-column="1" selection-end-line="189" selection-end-column="1" />
-          <folding>
-            <element signature="e#24#654#0" expanded="false" />
-            <element signature="e#691#1236#0" expanded="false" />
-            <element signature="e#1986#2455#0" expanded="false" />
-            <element signature="e#2481#3311#0" expanded="false" />
-            <element signature="e#3358#4096#0" expanded="false" />
-            <element signature="e#4145#4319#0" expanded="false" />
-            <element signature="e#4357#4770#0" expanded="false" />
-            <element signature="e#4806#5045#0" expanded="false" />
-            <element signature="e#5088#5251#0" expanded="false" />
-            <element signature="e#5475#5738#0" expanded="false" />
-            <element signature="e#6686#6785#0" expanded="false" />
-            <element signature="e#6812#6856#0" expanded="false" />
-            <marker date="1520884053835" expanded="true" signature="3424:3457" ph="..." />
-            <marker date="1520884053835" expanded="true" signature="3458:3530" ph="..." />
-            <marker date="1520884053835" expanded="true" signature="3655:3736" ph="..." />
           </folding>
         </state>
       </provider>

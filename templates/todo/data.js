@@ -1,41 +1,4 @@
-// globalData = {
-//  1520582400000 :
-//        [
-//          {
-//          _id: 1
-//          reminder: {
-//             task: 'ojbk',
-//             done: true,
-//          },
-//          {
-//          _id: 2
-//          reminder: {
-//             task: 'ojbk',
-//             done: true,
-//          },
-//        ]
-//     },
-//     1520668800000 :
-//         [
-//          {
-//          _id: 1
-//          reminder: {
-//             task: 'ojbk',
-//             done: true,
-//          },
-//          {
-//          _id: 2
-//          reminder: {
-//             task: 'ojbk',
-//             done: true,
-//          },
-//        ]
-//      }
-//
-
-// let __globalData
-
-    // {
+ // {
     //  "1520582400000":
     //    [
     //        {
