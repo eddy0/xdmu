@@ -211,6 +211,8 @@ $width: 500px;
   .content-wrapper {
     flex: 1;
     color: #fff;
+    transition: all 3s;
+
   }
 
   .content-date-detail {
@@ -244,16 +246,7 @@ $width: 500px;
 
     .reminder-items {
       transition: 0.3s;
-      
-      @media (min-height: 245px) {
-        //margin-top: -100px;
-        //display: none;
 
-        .content-wrapper {
-          display: none;
-          margin-top: 0;
-        }
-      }
     }
 
     .reminder-item {
@@ -284,6 +277,7 @@ $width: 500px;
         }
 
         &.done {
+          transition: all 0.3s;
           text-decoration: #dd6262 line-through;
         }
 

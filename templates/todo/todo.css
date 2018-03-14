@@ -142,7 +142,8 @@ body {
     box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.3); }
   .content-box .content-wrapper {
     flex: 1;
-    color: #fff; }
+    color: #fff;
+    transition: all 3s; }
   .content-box .content-date-detail {
     flex: 1;
     font-size: 32px; }
@@ -164,10 +165,6 @@ body {
       margin-bottom: 10px; }
     .content-box .reminder-container .reminder-items {
       transition: 0.3s; }
-      @media (min-height: 245px) {
-        .content-box .reminder-container .reminder-items .content-wrapper {
-          display: none;
-          margin-top: 0; } }
     .content-box .reminder-container .reminder-item {
       display: flex;
       align-items: center;
@@ -186,6 +183,7 @@ body {
         .content-box .reminder-container .reminder-item .item-content:focus {
           outline: 0; }
         .content-box .reminder-container .reminder-item .item-content.done {
+          transition: all 0.3s;
           text-decoration: #dd6262 line-through; }
       .content-box .reminder-container .reminder-item .item-actions {
         margin-right: 10px;
